@@ -113,10 +113,10 @@ li.item:hover {
    background-size: 100%;
  }
 
- .section-border {
+ /*.section-border {
    height: 30px;
    border-radius:29% 27% 48% 52% / 0% 0% 100% 100%  ;
- }
+ }*/
 
 
  @keyframes moving-animation {
