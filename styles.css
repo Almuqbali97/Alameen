@@ -1,203 +1,103 @@
 * {
-   box-sizing: border-box;
-   font-family: 'Cairo', sans-serif;
+    box-sizing: border-box;
+    font-family: 'Cairo', sans-serif;
 }
-
 
 body {
-   margin: 0;
-   padding: 0;
+    margin: 0;
+    padding: 0;
+    background: rgb(205,200,188);
+    background: linear-gradient(90deg, rgb(192, 184, 167) 0%, rgb(230, 221, 200) 50%, rgba(253,248,241,1) 100%);
+    
 }
 
-.navbar {
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
-   background-color: #0772782b;
+.flex-container {
+    display: flex;
+    max-width: 97%;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: .2rem;
 }
 
-.logo img{
-   margin-left: .7rem;
-   margin-top: .5rem;
-   border-radius: 50%;
+
+
+.nav-list {
+    list-style-type: none;
+    margin: 0; 
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 1.2rem;
+    padding: 0;
+    background-color: #F3EFE6;
+    padding: 0 .4rem;
+    border-radius: 4px;
+    border: 1.5px solid rgba(128, 128, 128, 0.744);
 }
 
-.nav-links {
-   height: 100%;  
+
+.nav-list li > a {
+    text-decoration: none;
+    color: rgb(81, 81, 81);
+    
+}  
+
+.hero-section {
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgb(17, 63, 52);
 }
 
-.nav-links ul{
-   display: flex;
-   margin: 0;
-   margin-right: 3rem;
-   gap: 1.3rem;
-   list-style: none;
-   flex-direction: row-reverse;
+
+.main-background {
+
+    background-image: url(./images/hero-back-two.png);
+    /* Full height */
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:contain;
    
 }
 
 
-
-.nav-links li a {
-   text-decoration: none;
-   color: black;
-   font-size: 13pt;
-   transition: all .55s ease;
-     
+.main-title {
+    margin-top:1.2rem;
+    background-color: rgba(192, 184, 167, 0.819) ;
+    border: 2px solid rgba(128, 128, 128, 0.744);
+    border-radius: 5px;
+    font-family: 'Reem Kufi', sans-serif;
+    font-size: clamp(25pt, 10pt);
+    
+    
 }
-li.item {
-   border-bottom: 2px solid rgba(0, 0, 0, 0);
-}
-
-li.item:hover {
-   transform:scale(1.05);
-   transition: all .55s ease;
-   border-bottom: 2px solid rgba(0, 0, 0, 0.849);
-
-}
-
-
-.hero-container {
-   display: flex;
-   justify-content: center;
-   padding-bottom: 30px;
-   flex-direction: row-reverse;
-   align-items: center;
-   
-
-}
-
-.hero-container h1 {
-   font-size: 5rem;
-   font-weight: 300;
-   font-family: 'Reem Kufi', sans-serif;
-   margin-bottom: 0;
-}
-.hero-container h2 {
-   font-size: 2.2rem;
-   font-family: 'Reem Kufi', sans-serif;
-   font-weight: lighter;
-}
-.title {
-   display: flex;
-   flex-direction: column;
-   text-align: center;
-   
-}
-
-.quran-img {
-   width: 250px;
-   position: absolute;
-   left: 3rem;  
-   top: 7.5rem;  
-}
-
-.quran-img img {
-   width: 100%;
+.second-title {
+    background-color: rgba(192, 184, 167, 0.819)  ;
+    border: 2px solid rgba(128, 128, 128, 0.744);
+    border-radius: 5px;
+    font-family: 'Reem Kufi', sans-serif;
+    font-size: clamp(25pt, 10pt);
+    letter-spacing: .2rem;
+    
 }
 
 
-
-
-
-.gradient-background {
-   background: linear-gradient(300deg, #aaebbfdc,#f1f3aedc, #077278dc);
-   background-size: 180% 180%;
-   animation: gradient-animation 15s ease infinite;
-   
-   
- }
-
- .background-img {
-   background-image: url(./images/h-backround.jpg);
-   background-size: 100%;
- }
-
- /*.section-border {
-   height: 30px;
-   border-radius:29% 27% 48% 52% / 0% 0% 100% 100%  ;
- }*/
-
-
- @keyframes moving-animation {
-
-   50%
-    {
-      transform: translateX(10px);
-   }
- }
-
- .animated-object {
-   animation-name:moving-animation;
-   animation-duration: 2s;
-   animation-timing-function:linear;
-   animation-iteration-count: infinite;
-   
-   
- }
-
- @keyframes gradient-animation {
-   0% {
-     background-position: 0% 50%;
-   }
-   50% {
-     background-position: 100% 50%;
-   }
-   100% {
-     background-position: 0% 50%;
-   }
- }
-
-@media (max-width:600px) {
-   .navbar {
-      flex-direction:column ;
-     
-   }
-
-   .hero-container{
-      flex-direction:column ;
-      align-items: center;
-   }
-
-   .quran-img {
-      width: 250px;
-      position: relative;
-      left: 0;
-      top: 0;
-   }
-   
+.random-content{
+    height: 11rem;
+    background: rgb(44,65,59);
+    background: linear-gradient(0deg, rgb(53, 72, 67) 0%,#3D544C 20%, rgba(122,144,133,1) 100%);
 }
-
-@media  (max-width: 977px)
+@media (max-width:600px)
 {
-   .hero-container
-   {
-      justify-content: space-between;
-      margin: 0 4rem;
-   }
- .quran-img {
-      width: 250px;
-      position: relative;
-      left: 0;
-      top: 2rem;
-   }
-}
- 
-@media (max-width:420px) {
-   .hero-container h1 {
-      font-size: 4.5rem;
-   
-      
-   }
-}
-
-@media (max-width:390px) {
-   .hero-container h1 {
-      font-size: 3.5rem;
-
-   }
-   .hero-container h2{
-      font-size: 1.9rem;
-
-   }
+    .flex-container {
+     flex-direction: column;
+     margin: 0 auto;
+     margin-top: .5rem;
+    }
+    .main-title {
+        margin-top:0;
+    }
 }
