@@ -90,7 +90,7 @@ body {
     background: rgb(44,65,59);
     background: linear-gradient(0deg, rgb(53, 72, 67) 0%,#3D544C 20%, rgba(122,144,133,1) 100%);
 }
-@media (max-width:400px)
+@media (max-width:420px)
 {
     .flex-container {
      flex-direction: column;
