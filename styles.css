@@ -55,9 +55,9 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    color: rgb(17, 63, 52);
+    /*color: rgb(17, 63, 52);*/
     /*color: rgb(82, 7, 7);*/
-    text-shadow: 0 0 3px #ffffff;
+    color:#57181f;
 }
 
 
