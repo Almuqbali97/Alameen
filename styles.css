@@ -19,7 +19,6 @@ body {
 
 .header-section {
     height: 100vh;
-    height: 100svh;
     background: linear-gradient(202deg, rgba(204, 255, 0, 0.20) 1.66%, rgba(204, 255, 0, 0.00) 100%), linear-gradient(241deg, #36DEA1 0%, rgba(40, 194, 138, 0.00) 100%), linear-gradient(193deg, #14B2CF 0%, rgba(14, 169, 197, 0.57) 43.33%, rgba(5, 156, 184, 0.00) 100%), #6B347E;
 
     /*background: #00F260; 
@@ -154,7 +153,6 @@ background: linear-gradient(to top right, #0575E6, #00F260); /* W3C, IE 10+/ Edg
 
 .main-content {
     height: 100vh;
-    height: 100svh;
     background: #00F260;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #0575E6, #00F260);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to top right, #0576e6, #00F260); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
