@@ -194,8 +194,8 @@ body {
 
 @media (max-width:600px)
 {
-    .hero-section {
-        maring-bottom:2.5rem;
+     .title {
+        margin-bottom:3rem;
     }
     .islamic-pattern {
         --_imgHeight:28rem;
