@@ -189,7 +189,7 @@ body {
     100%{ transform: translateY(0);}
 }
 .main-title {
-    margin-top: -2rem;
+    margin-top: -10%;
     padding-bottom: 1rem;
 }
 
