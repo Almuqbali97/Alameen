@@ -48,6 +48,7 @@ body {
    bottom: calc(var(--_imgHeight)/-2);
    left: calc(var(--_imgHeight)/-2);
    z-index: 1;
+    -webkit-animation: spin 95s linear infinite;
    animation:spin 95s linear infinite;
 }
 
