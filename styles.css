@@ -245,7 +245,10 @@ body {
     .nav-list {
         align-items: center;
         flex-direction: column;
-        gap: 1.6rem;
+    }
+       .nav-list > * + * {
+        margin-right: 0;
+        margin-top: 1.6rem;
     }
     .nav-links > a {
         animation: text .4s ease-in;
