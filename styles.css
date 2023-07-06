@@ -58,6 +58,9 @@ body {
     100% {rotate: 360deg;}
 }
 
+@-webkit-keyframes spin {
+    100% {rotate: 360deg;}
+}
 
 .flex-container {
     height: 10%;
